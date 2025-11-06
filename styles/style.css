@@ -58,11 +58,24 @@ ol {
   align-items: flex-end;
   justify-content: space-between;
   width: 1140px;
+  height: 534px;
   column-gap: 30px;
 }
 
 .result {
 
+
+}
+
+.result__video-container {
+  margin-bottom: 16px;
+  height: 386px;
+}
+
+.result__video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .content__details {
@@ -84,4 +97,86 @@ ol {
 .content__list-container {
   height: 534px;
   overflow: scroll;
+  display: grid;
+  row-gap: 30px;
+}
+
+.content__list {
+  display: grid;
+  row-gap: 30px;
+}
+
+.content__video-card {
+  display: flex;
+  align-items: flex-start;
+}
+
+.content__video-card-thumbnail {
+  height: 103px;
+  min-width: 194px;
+  object-fit: cover;
+
+}
+
+.content__video-card-description-container {
+  flex-grow: 1;
+}
+
+.search-form__fieldset-title {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 400;
+  font-style: normal;        
+  font-size: 18px;
+  line-height: 100%;       
+  letter-spacing: 0;
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;         
+  font-style: normal;       
+  font-size: 75px;
+  line-height: 94%;         
+  letter-spacing: 0;        
+  text-transform: uppercase;
+}
+
+.content__accent {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;         
+  font-style: normal;        
+  font-size: 75px;
+  line-height: 94%;          
+  letter-spacing: 0;         
+  text-transform: uppercase; 
+  color: #545050;
+}
+
+.content__card-link {
+  text-decoration: none;
+}
+
+.content__video-card-title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;          
+  font-style: normal;        
+  font-size: 30px;
+  line-height: 100%;         
+  letter-spacing: 0;        
+  text-transform: uppercase; 
+  color: white;
+  text-overflow: ellipsis;
+  margin-bottom: 6px;
+}
+
+.content__video-card-description {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 400;        
+  font-style: normal;       
+  font-size: 18px;
+  line-height: 16.2px;       
+  letter-spacing: 0;        
+  color: white;
+  line-clamp: 1;
+  text-overflow: ellipsis;
 }
