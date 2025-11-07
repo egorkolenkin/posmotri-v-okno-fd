@@ -111,6 +111,7 @@ ol {
 .content__list {
   display: grid;
   row-gap: 30px;
+  padding-top: 3px;
 }
 
 .content__video-card {
